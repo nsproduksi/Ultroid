@@ -263,7 +263,7 @@ async def hehe(args):
                 emoji = splat[1]
 
         packname = f"ult_{user.id}_{pack}"
-        packnick = f"@{user.username}'s Pack {pack}"
+        packnick = f"@{user.username} {pack}"
         cmd = "/newpack"
         file = io.BytesIO()
 
